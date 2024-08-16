@@ -49,7 +49,7 @@ const loadOptions = async (searchInputValue) => {
 
   return (
     <AsyncPaginate
-      placeholder="Search for city"
+      placeholder="Search by city"
       debounceTimeout={600}
       value={search}
       onChange={handleOnChange}
